@@ -1,0 +1,128 @@
+* {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+body {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: 	#770737;
+}
+
+.container {
+    display: flex;
+   
+}
+
+.bar {
+    height: 100px;
+    width: 30px;
+    border:1px inset #800020;
+}
+
+.container div:nth-child(1) {
+    animation-name: boxAnimation1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.container div:nth-child(2) {
+   animation-name: boxAnimation2;
+   animation-duration: 2s;
+   animation-iteration-count: infinite;
+}
+
+.container div:nth-child(3) {
+   animation-name: boxAnimation3;
+   animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.container div:nth-child(4) {
+   animation-name: boxAnimation4;
+   animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.container div:nth-child(5) {
+    animation-name: boxAnimation5;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.container div:nth-child(6) {
+    animation-name: boxAnimation6;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.container div:nth-child(7) {
+   animation-name: boxAnimation7; 
+   animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.container div:nth-child(8) {
+   animation-name: boxAnimation8;
+   animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+/* The animation code */
+@keyframes boxAnimation1 {
+    0% {background-color:  yellow;}
+    100%{background-color: #770737;}
+    
+}
+
+@keyframes boxAnimation2 {
+    0% {background-color:  #770737;}
+    12.5% {background-color: yellow;}
+    100% {background-color: #770737;}
+    
+}
+
+@keyframes boxAnimation3 {
+    0% {background-color:  #770737;}
+    25% {background-color: yellow;}
+    100% {background-color: #770737;}
+    
+}
+
+@keyframes boxAnimation4 {
+   0% {background-color:  #770737;}
+    37.5% {background-color: yellow;}
+    100% {background-color: #770737;}
+    
+    
+}
+
+@keyframes boxAnimation5 {
+    0% {background-color:  #770737;}
+    50% {background-color: yellow;}
+    100% {background-color: #770737;}
+    
+}
+
+@keyframes boxAnimation6 {
+    0% {background-color:  #770737;}
+    62.5% {background-color: yellow;}
+    100% {background-color: #770737;}
+    
+}
+
+@keyframes boxAnimation7 {
+    0% {background-color:  #770737;}
+    75% {background-color: yellow;}
+    100% {background-color: #770737;}
+    
+}
+
+@keyframes boxAnimation8 {
+    0% {background-color:  #770737;}
+    87.5% {background-color: yellow;}
+    100% {background-color: #770737;}
+    
+}
